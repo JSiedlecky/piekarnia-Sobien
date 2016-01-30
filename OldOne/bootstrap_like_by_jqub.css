@@ -1,0 +1,243 @@
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul.menu a li {
+    display: none;
+}
+
+div section span.date {
+    display: block;
+    margin: 20px 0 0 10px;
+}
+
+div section {
+    background-color: #ebc96b;
+    min-height: 100%;
+    float: left;
+}
+
+div section h1 {
+    padding: 0 0 0 10px;;
+    font-size: 25px;
+}
+    
+ article {
+     padding: 10px;
+     font-size: 20px;
+     line-height: 25px;
+ }
+    
+ div aside {
+     margin-top: 0;
+     background-color: #f8dc3b;
+     height: 40%;
+ }
+
+#menubtn {
+    background-color: #d8b240;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    border-right: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e4e4e4;
+    width: 100%;
+}
+
+/* Smartfony: */
+[class*="col-"] {
+    width: 100%;
+}
+/* Tablety: */
+@media only screen and (min-width: 468px) {
+    .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    }
+    
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 24.2%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    
+    ul.menu a li {
+        border: none;
+        background-color: #d8b240;
+        border-top: 2px solid block;
+    }
+    
+    div section {
+        background-color: #ebc96b;
+        height: 100%;
+        float: left;
+    }
+
+    div section h1 {
+        padding: 0 0 0 10px;
+        font-size: 25px;
+    }
+    
+    div section span.date {
+        display: block;
+        margin: 20px 0 0 10px;
+    }
+    
+    article {
+        padding: 10px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    div aside {
+        background-color: #f8dc3b;
+        float: right;
+        height: 100%;
+    }
+    
+     ul.menu {
+    z-index: 100;
+    background-color: #d8b240;
+    text-align: center;
+    height: 50px;
+    margin-top: -4px;
+    }
+
+    ul.menu a {
+        color: black;
+    }
+
+    ul.menu a li {
+        background-color: #d8b240;
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        display: inline-block;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
+        border-right: 1px solid black;
+        box-sizing: border-box;
+    }
+    
+    #lastone {
+        border-right: none;
+    }
+        
+    #menubtn {
+        display: none;
+    }
+
+}
+/* Laptop/PC: */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 24.2%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    ul.menu {
+    z-index: 100;
+    background-color: #d8b240;
+    text-align: center;
+    height: 50px;
+    margin-top: -4px;
+    }
+
+    ul.menu a {
+        color: black;
+    }
+
+    ul.menu a li {
+        background-color: #d8b240;
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        display: inline-block;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
+        border-right: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    #lastone {
+        border-right: none;
+    }
+    
+    div section {
+        background-color: #ebc96b;
+        min-height: 100%;
+        float: left;
+    }
+    
+    div section span.date {
+        display: block;
+        margin: 20px 0 0 10px;
+    }
+    
+    div section h1 {
+        padding: 0 0 0 10px;;
+        font-size: 25px;
+    }
+    
+    article {
+        padding: 10px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    aside {
+        margin-top: 0;
+        background-color: #f8dc3b;
+        float: right;
+        height: 100%;
+    }
+    
+    #menubtn {
+        display: none;
+    }
+
+    aside figure img {
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    article span {
+        position: absolute;
+        bottom: 100px;
+        right: 40%;
+        color: darkred;
+        transform: rotate(30deg);
+    }
+    
+}
