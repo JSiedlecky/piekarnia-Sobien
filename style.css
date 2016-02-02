@@ -21,13 +21,51 @@ footer {
 	position: absolute;
 	right: 30px;
 	color: firebrick;
-	color: firebrick;
 	transform: rotate(45deg);
+	margin-top: 10px;
 }
 
 main {
 	position: relative;
-	padding-bottom: 80px;
+}
+
+nav {
+	background: #b79535;
+	/* Old browsers */
+	background: -moz-linear-gradient(45deg, #b79535 2%, #b79535 2%, #e8c046 29%, #b79535 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #b79535 2%, #b79535 2%, #e8c046 29%, #b79535 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #b79535 2%, #b79535 2%, #e8c046 29%, #b79535 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b79535', endColorstr='#b79535', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+aside {
+	background: #ecca69;
+	/* Old browsers */
+	background: -moz-linear-gradient(left, #ecca69 0%, #f8db3c 81%, #f8db3c 81%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #ecca69 0%, #f8db3c 81%, #f8db3c 81%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #ecca69 0%, #f8db3c 81%, #f8db3c 81%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ecca69', endColorstr='#f8db3c', GradientType=1);
+	/* IE6-9 */
+}
+
+main {
+	background: #f5e053;
+	/* Old browsers */
+	background: -moz-linear-gradient(45deg, #f5e053 1%, #ebc96a 73%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #f5e053 1%, #ebc96a 73%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #f5e053 1%, #ebc96a 73%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5e053', endColorstr='#ebc96a', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
 }
 
 @media screen and (max-width: 480px) {
@@ -44,7 +82,7 @@ main {
 		list-style-type: none;
 	}
 	.navbarTop ul li {
-		background-color: #e0b943;
+		//background-color: #e0b943;
 		border-top: 1px solid black;
 		padding: 10px;
 		box-sizing: border-box;
@@ -62,8 +100,8 @@ main {
 	}
 	main {
 		margin-top: 5px;
-		padding: 5px 5px 80px 5px;
-		background-color: #efd164;
+		padding: 5px 5px 50px 5px;
+		//background-color: #efd164;
 		position: relative;
 	}
 	.date {
@@ -77,7 +115,7 @@ main {
 	aside {
 		margin-top: 5px;
 		padding: 5px 0;
-		background-color: #ebca6a;
+		//background-color: #ebca6a;
 	}
 	aside figure img {
 		width: 100%;
@@ -104,7 +142,7 @@ main {
 	}
 	.navbarTop {
 		width: 100%;
-		background-color: #ebca6a;
+		//background-color: #ebca6a;
 	}
 	.navbarTop ul {
 		padding: 0;
@@ -140,8 +178,8 @@ main {
 	main {
 		margin: 0;
 		margin-top: 5px;
-		padding: 10px 10px 80px 10px;
-		background-color: #efd164;
+		padding: 10px 10px 40px 10px;
+		//background-color: #efd164;
 		font-size: 23px;
 		height: 430px;
 		position: relative;
@@ -166,7 +204,7 @@ main {
 	aside {
 		padding: 0;
 		margin-top: 5px;
-		background-color: #ebca6a;
+		//background-color: #ebca6a;
 	}
 	aside figure {
 		margin: 0;
@@ -193,7 +231,7 @@ main {
 	}
 	nav {
 		display: block;
-		background: #feb61a;
+		//background: #feb61a;
 		margin-bottom: 5px;
 		width: 100%;
 	}
