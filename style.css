@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     background-image: url('img/background.png');
+=======
+    background-image: url('background.png');
+>>>>>>> refs/remotes/origin/master
     margin: 0;
     padding: 0;
     height: 100%;
@@ -224,7 +228,11 @@ main {
     }
     
     .navbarTop {
+<<<<<<< HEAD
        // background-color: #e0b943;
+=======
+        background-color: #e0b943;
+>>>>>>> refs/remotes/origin/master
     }
     
     .navbarTop ul {
@@ -249,6 +257,17 @@ main {
         display: block;
         text-decoration: none;
         color: black;
+<<<<<<< HEAD
+=======
+    }
+    
+    .menuItem:last-child {
+        border: none;
+    }
+    
+    .menuBTN {
+        display: none;
+>>>>>>> refs/remotes/origin/master
     }
     
     .menuItem:last-child {
