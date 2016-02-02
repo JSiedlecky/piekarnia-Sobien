@@ -193,13 +193,17 @@ footer {
     .menuBTN {
         display: none;
     }
+    #loadInMeSenpai {
+        margin-top: -5px;
+        height: 575px;
+    }
     main {
         padding: 10px 0 0 10px;
         font-size: 25px;
         background-color: #efd164;
         float: left;
-        width: 79%;
-        height: 390px;
+        width: 78.5%;
+        height: calc(100% - 10px);
     }
     .date {
         font-size: 20px;
@@ -212,7 +216,7 @@ footer {
     aside {
         float: right;
         width: 20%;
-        height: 400px;
+        height: 100%;
         background-color: #ebca6a;
     }
     footer {
