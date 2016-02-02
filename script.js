@@ -6,7 +6,29 @@ $(function () {
 		$('li.menuItem').toggle('display');
 	});
 
-	
+	var _main = $('#load').html();
+
+	$('.menuItem').each(function (i, v) {
+		$(v).click(function () {
+			var target = $(v).attr('data-target');
+
+			var _new = $(target).html();
+			$('#load').html(_new);
+
+
+		});
+
+	});
+
+
+	//ukryj mi podstrony
+	$('#produkty').hide(0);
+
+
+
+
+
+
 	//super rotate helicopter-dick
 	var angle = 0;
 	var maxAngle = 10;
