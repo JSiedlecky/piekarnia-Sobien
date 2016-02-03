@@ -35,21 +35,21 @@ $(function () {
     //slider 
     function slider(){
         $('#slider #d1').fadeIn(500);
-        $('#slider #d1').delay(5500).hide("slide", {direction:"left"}, 500);
+        $('#slider #d1').delay(2500).hide("slide", {direction:"left"}, 500);
         
         var sizeOimg = $("#slider img").size();
         var count = 2;
         
         setInterval(function(){
             $("#slider #d"+count).show("slide",{direction:"right"}, 500);
-            $("#slider #d"+count).delay(5500).hide("slide", {direction:"left"}, 500);
+            $("#slider #d"+count).delay(2500).hide("slide", {direction:"left"}, 500);
             
             if(count == sizeOimg){
                 count = 1;
             }else{
                 count++;
             }
-        }, 6500);
+        }, 3500);
     }
     
     $('body').ready(slider());

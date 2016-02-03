@@ -28,6 +28,10 @@ footer {
 	margin-top: 10px;
 }
 
+#galeria h1 {
+	font-size: 40px;
+}
+
 .randomTekst {
 	font-size: 20px;
 	position: absolute;
@@ -118,7 +122,7 @@ section {
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5e053', endColorstr='#ebc96a', GradientType=1);
 	/* IE6-9 fallback on horizontal gradient */
-	padding: 20px;
+	padding: 30px;
 	clear: both;
 }
 
@@ -248,13 +252,17 @@ main {
 	#mapa {
 		display: none;
 	}
-	
-		/*	temu roibłem */
+	/*	temu roibłem */
 	#contacts .thirdPart {
 		font-size: larger;
 	}
 	#contacts textarea {
 		width: 60%;
+	}
+	#contacts input, #contacts textarea {
+		border: 2px solid #505267;
+		border-radius: 5px;
+		margin-top: 5px;
 	}
 	#contacts .inputMid {
 		width: 50%;
@@ -265,6 +273,8 @@ main {
 	}
 	#contacts input[type=text] {
 		float: right;
+		width: 100%;
+		font-size: larger;
 	}
 	#contacts input[type=submit] {
 		font-size: larger;
@@ -417,14 +427,20 @@ main {
 	}
 	#contacts label {
 		float: left;
+		//font-size: initial;
+	}
+	#contacts input, #contacts textarea {
+		border: 2px solid #505267;
+		border-radius: 5px;
 	}
 	#contacts input[type=text] {
 		float: right;
+		width: 50%;
+		font-size: larger;
 	}
 	#contacts input[type=submit] {
 		font-size: larger;
-		border: 2px solid #505267;
-		border-radius: 5px;
+		
 		margin-bottom: 20px;
 	}
 	#contacts .thirdPart .sm {
