@@ -2,7 +2,7 @@
 //http://lorempixel.com/image_output/animals-q-c-208-167-8.jpg
 
 $(function () {
-    //mobile menu :V
+	//mobile menu :V
 	$('li.menuBTN').click(function () {
 		$('li.menuItem').toggle('display');
 	});
@@ -31,26 +31,32 @@ $(function () {
 		$('.randomTekst').css('transform', 'rotate(' + angle + 'deg)');
 
 	}, speed);
-    
-    //slider 
-    function slider(){
-        $('#slider #d1').fadeIn(500);
-        $('#slider #d1').delay(2500).hide("slide", {direction:"left"}, 500);
-        
-        var sizeOimg = $("#slider img").size();
-        var count = 2;
-        
-        setInterval(function(){
-            $("#slider #d"+count).show("slide",{direction:"right"}, 500);
-            $("#slider #d"+count).delay(2500).hide("slide", {direction:"left"}, 500);
-            
-            if(count == sizeOimg){
-                count = 1;
-            }else{
-                count++;
-            }
-        }, 3500);
-    }
-    
-    $('body').ready(slider());
+
+	//slider 
+	function slider() {
+		$('#slider #d1').fadeIn(500);
+		$('#slider #d1').delay(2500).hide("slide", {
+			direction: "left"
+		}, 500);
+
+		var sizeOimg = $("#slider img").size();
+		var count = 2;
+
+		setInterval(function () {
+			$("#slider #d" + count).show("slide", {
+				direction: "right"
+			}, 500);
+			$("#slider #d" + count).delay(2500).hide("slide", {
+				direction: "left"
+			}, 500);
+
+			if (count == sizeOimg) {
+				count = 1;
+			} else {
+				count++;
+			}
+		}, 3500);
+	}
+
+	$('body').ready(slider());
 });
