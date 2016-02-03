@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
 
     <script src="jquery.min.js"></script>
     <script src="script.js"></script>
@@ -29,18 +30,40 @@
         <nav class="navbarTop">
             <ul>
                 <li class="menuBTN"><a href="#">MENU</a></li><li class="menuItem">
-                <a href="contact.html">Kontakt</a></li><li class="menuItem">
+                <a href="index.html">Główna</a></li><li class="menuItem">
                 <a href="products.html">Produkty</a></li><li class="menuItem">
                 <a href="gallery.html">Galeria</a></li><li class="menuItem">
-                <a href="about.html">O nas</a></li>
+                <a href="contact.html">Kontakt</a></li>
             </ul>
         </nav>
         
         <div id="contacts">
             <section>
-                <div class="thirdPart"><h1>Napisz do nas!</h1></div>
-                <div class="thirdPart"><h1>Znajdź nas!</h1></div>
-                <div class="thirdPart"><h1>Polub/śledź nas na mediach społecznych!</h1></div>
+                <form action="#" method="get">
+                    <div class="thirdPart"><h1>Napisz do nas!</h1>
+                    Imie: 
+                    <input type="text" name="imie" value class="formName"><br><br>
+                    Nazwisko: 
+                    <input type="text" name="nazwisko" value class="formSurname"> <br><br>
+                    Treść wiadomości: <br><textarea name="tresc" id="formValue" cols="30" rows="10"></textarea><br><br>
+                    <input type="submit" value="Wyślij wiadomość." name="formSubmit">
+                    </div>
+                    <div class="thirdPart"><h1>Znajdź nas!</h1>
+                    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81551.88400381406!2d18.579576894836116!3d50.301328262230264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471130606c66b15f%3A0x9bbca89f06cbea11!2sGliwice!5e0!3m2!1spl!2spl!4v1454455975344" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div id="infoContact">
+                        Adres: Gliwice, Śląska - ul.Chorzowska 5 <br><br>
+                        Numer stacjonarny: 32 111-11-11 <br><br>
+                        Numer komórkowy: 111-111-111 <br><br>
+                    </div>
+                    </div>
+                    <div class="thirdPart"><h1>Polub/śledź nas na mediach społecznych!</h1>
+                    <a href="http://www.facebook.com"><i id="FB" class="fa fa-facebook-official fa-2x"></i>&nbsp;&nbsp;Polub nas na FB</a>
+                    <br><br><br>
+                    <a href="https://plus.google.com/"><i id="GP" class="fa fa-google-plus-square fa-2x"></i>&nbsp;&nbsp;Śledź nas na Google Plus</a>
+                    <br><br><br>
+                    <a href=""><i id="IN" class="fa fa-linkedin-square fa-2x"></i>&nbsp;&nbsp;Odwiedź nas na LinkedIn</a>
+                    </div>
+                </form>
             </section>
         </div>
         

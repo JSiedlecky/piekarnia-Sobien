@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
 body {
     background-image: url('img/background.png');
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Lato', sans-serif;
 }
 .headerIMG {
     width: 100%;
@@ -52,7 +54,18 @@ main {
 a {
     color: black;
 }
-
+#contacts a {
+    text-decoration: none;
+}
+#FB {
+    color: #3a5795;
+}
+#GP{
+    color: #d32f2f;
+}
+#IN{
+    color: #1a0dab;
+}
 /* galeria */
 
 #galeriaContainer {
@@ -204,6 +217,19 @@ main {
         display: none;
         height: 100%;
     }
+    #contacts section div.thirdPart{
+        text-align: center;
+        width: 97%;
+        padding: 0 1.5% 10px 1.5%;
+        height: 100%;
+        border-bottom: 1px solid black;
+    }
+    #contacts section div.thirdPart:last-child{
+        border: none;
+    }
+    #mapa{
+        display: none;
+    }
 }
 @media screen and (min-width: 480px) and (max-width: 1200px) {
     .container {
@@ -304,6 +330,16 @@ main {
     #slider img {
         display: none;
         height: 100%;
+    }
+    #contacts section div.thirdPart{
+        text-align: center;
+        width: 97%;
+        padding: 0 1.5% 10px 1.5%;
+        height: 100%;
+        border-bottom: 1px solid black;
+    }
+    #contacts section div.thirdPart:last-child{
+        border: none;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -411,5 +447,25 @@ main {
     }
     #contacts section div.thirdPart:last-child{
         border: none;
+    }
+    #contacts section form h1{
+        text-align: center;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    #contacts section form {
+        font-size: 20px;
+        height: 100%;
+    }
+    #contacts section div.thirdPart input{
+        height: 20px;
+        width: 30%;
+    }
+    #contacts section div.thirdPart input, textarea{
+        border: 2px solid #505267;
+        border-radius: 5px;
+    }
+    #infoContact{
+        display: none;
     }
 }
