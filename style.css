@@ -60,39 +60,34 @@ a {
 #FB {
     color: #3a5795;
 }
-#GP{
+#GP {
     color: #d32f2f;
 }
-#IN{
+#IN {
     color: #1a0dab;
 }
+
 /* galeria */
 
 #galeriaContainer {
-
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding: 50px 25px;
-	align-items: flex-start;
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 25px;
+    align-items: flex-start;
 }
 #galeriaContainer figure {
-
-	flex: 1 1 auto;
-	display: block;
-	margin: 10px;
-	padding: 0;
-	//box-sizing: border-box;
-	box-shadow: 4px 4px 20px;
-
+    flex: 1 1 auto;
+    display: block;
+    margin: 10px;
+    padding: 0;
+    //box-sizing: border-box;
+    box-shadow: 4px 4px 20px;
 }
 #galeriaContainer figure img {
-
-	//max-width: 100%;
-	width: 100%;
-	vertical-align: middle;
-
+    //max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
 }
 section {
     background: #f5e053;
@@ -217,17 +212,17 @@ main {
         display: none;
         height: 100%;
     }
-    #contacts section div.thirdPart{
+    #contacts section div.thirdPart {
         text-align: center;
         width: 97%;
         padding: 0 1.5% 10px 1.5%;
         height: 100%;
         border-bottom: 1px solid black;
     }
-    #contacts section div.thirdPart:last-child{
+    #contacts section div.thirdPart:last-child {
         border: none;
     }
-    #mapa{
+    #mapa {
         display: none;
     }
 }
@@ -331,14 +326,14 @@ main {
         display: none;
         height: 100%;
     }
-    #contacts section div.thirdPart{
+    #contacts section div.thirdPart {
         text-align: center;
         width: 97%;
         padding: 0 1.5% 10px 1.5%;
         height: 100%;
         border-bottom: 1px solid black;
     }
-    #contacts section div.thirdPart:last-child{
+    #contacts section div.thirdPart:last-child {
         border: none;
     }
 }
@@ -402,7 +397,7 @@ main {
     aside {
         float: right;
         width: 20%;
-        height: 100%;
+        height: calc(100% - 10px);
     }
     footer {
         clear: both;
@@ -437,7 +432,7 @@ main {
     #contacts section {
         height: 500px;
     }
-    #contacts section div.thirdPart{
+    #contacts section div.thirdPart {
         text-align: center;
         width: 30%;
         padding: 0 1.5% 0 1.5%;
@@ -445,10 +440,10 @@ main {
         float: left;
         border-right: 1px solid black;
     }
-    #contacts section div.thirdPart:last-child{
+    #contacts section div.thirdPart:last-child {
         border: none;
     }
-    #contacts section form h1{
+    #contacts section form h1 {
         text-align: center;
         font-size: 25px;
         padding: 10px 0;
@@ -457,15 +452,16 @@ main {
         font-size: 20px;
         height: 100%;
     }
-    #contacts section div.thirdPart input{
+    #contacts section div.thirdPart input {
         height: 20px;
         width: 30%;
     }
-    #contacts section div.thirdPart input, textarea{
+    #contacts section div.thirdPart input,
+    textarea {
         border: 2px solid #505267;
         border-radius: 5px;
     }
-    #infoContact{
+    #infoContact {
         display: none;
     }
 }
