@@ -43,7 +43,7 @@ $(function () {
         setInterval(function(){
             $("#slider #d"+count).show("slide",{direction:"right"}, 500);
             $("#slider #d"+count).delay(5500).hide("slide", {direction:"left"}, 500);
-            console.log(count);
+            
             if(count == sizeOimg){
                 count = 1;
             }else{
